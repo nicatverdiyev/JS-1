@@ -135,13 +135,16 @@
 // Bu ədədlərin toplama, çıxma, vurma və bölməsinin nəticələrin konsola
 // alt-alta 4 sətir olaraq çıxarın.
 
-// let numOne = prompt("birinci ededi daxil edin");
-// let numTwo = prompt("ikinci ededi daxil edin");
-// let toplama = numOne + numTwo;
-// let vurma = numOne * numTwo;
-// let cıxma = numOne - numTwo;
-// let bolme = numOne % numTwo;
-// console.log("toplama : ", toplama , "vurma : ", vurma , "cıxma :", cıxma , "bolme :", bolme);
+//  let numOne = prompt("birinci ededi daxil edin");
+//  let numTwo = prompt("ikinci ededi daxil edin");
+//  let num = Number(numOne);
+//  let numm = Number(numTwo);
+
+//  let toplama = num + numm;
+//  let vurma = numOne * numTwo;
+//  let cıxma = numOne - numTwo;
+//  let bolme = numOne % numTwo;
+//  console.log("toplama : ", toplama , "vurma : ", vurma , "cıxma :", cıxma , "bolme :", bolme);
 
 // 18) İstifadəçinin soyadını və adını almaq üçün proqram tərtib edin.
 // Proqram bir mesajla istifadəçinin soyadını və adını daxil etməsini istəyir və
