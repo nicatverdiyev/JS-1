@@ -12,7 +12,7 @@
 // 3) Bu adlardan hansının dəyişən üçün istifadə oluna biləcəyini göstərin.
 // Birdən çox variant seçin.
 
-// 2user -- olmaz 
+// 2user -- olmaz
 // c@rt -- olmaz
 // person -- olar
 // title color -- olar
@@ -27,7 +27,7 @@
 // =>let bookAmount = 14;
 
 // let bookPrice = 750;
-// let bookAmount = 14; 
+// let bookAmount = 14;
 // let allAmount = bookPrice * bookAmount;
 // console.log("mağazasındaki bir kitabın qiyməti : ", bookPrice);
 // console.log("depodaki kitab sayı : ", bookAmount);
@@ -41,7 +41,7 @@
 // msSpeed dəyişəninin dəyərini konsola çıxarın.
 // =>let kmhSpeed = 75;
 
-// let kmhSpeed = 75; 
+// let kmhSpeed = 75;
 // const msSpeed = kmhSpeed * 1000 / 3600; // Sürəti saniyədə metrə çevirmək
 // console.log("Saniyədə metrə sürət:", msSpeed);
 
@@ -82,6 +82,7 @@
 // let message_one = "Sizin adınız";
 // let message_two ="Tanışlığımıza çox şadam!"
 // console.log(message_one,firstName,lastName,message_two);
+// console.log(`sizin adınız ${firstName} ${lastName} Tanışlığımıza şadam`);
 
 // 9) Şablon mətnlərdən istifadə edərək,
 // konsola “Sizi bir daha görməyimizə şadıq, [firstName] [lastName]”.
@@ -152,3 +153,26 @@
 
 // let fullName = prompt("adınızı daxil edin ");
 // console.log("Salam ",fullName);
+// ......................................................
+// ............................................................................ FOR ME .............................................................................
+// index-i 6 olanı ekrana ver
+// let fullName = "Nicat Verdiyev";
+// console.log(fullName[6]);
+
+// (SPLİT)deyişeni götürmek
+// let fullName = "Nicat Verdiyev";
+// console.log(fullName.split("c"));
+
+// sözdeki herfleri ekrana çıxartmaq
+// let fullName = "Nicat Verdiyev";
+// console.log(fullName[0], fullName[6]);
+// yuxarıdakın da eger söz promt ile elave edilibse:
+// let fullName = prompt();
+// foundİndex = fullName.indexOf(" ") + 1;
+// console.log(fullName[0] , fullName[foundİndex]);
+
+// daxil edilen reqemlerin cemini tapmaq:
+// let num = prompt();
+// console.log(+num[0] + +num[1] + +num[2] + +num[3]);  
+// qarşılarındakı + işaresi String'i Number'e çevirir.
+
