@@ -153,6 +153,89 @@
 
 // let fullName = prompt("adınızı daxil edin ");
 // console.log("Salam ",fullName);
+
+// 23)Müxtəlif müqayisə operatorları ilə 5 ifadə yazın.
+// value dəyişəni üçün müxtəlif müqayisə operatorları ilə 5 ifadə yazın,
+// hansıki əməliyyat nəticəsi value = 10 üçün true və value = 20 üçün false olacaq.
+// let a = 7;
+// let b= 12;
+// console.log(a<b);  true
+// console.log(a<=b);    true
+// console.log(a!=b);   true
+// console.log(a!==b);  true
+// console.log(a>0);    true
+
+// 24 ) İstifadəçidən yaşını soruşun.
+// Əgər yaşı 18-dən azdırsa, o zaman brauzerdə «Access denied» bildirişi çıxarın.
+// Əks halda «Access granted» bildirişini çıxarın.
+
+// let userName = prompt("yaşınızı daxil edin");
+// if(userName<18){
+//     alert("Access denied");
+// }
+// else{
+//     alert("Access granted");
+// }
+//alert(EKRANA bildiriş ÇIXARIR)
+
+// Task-26
+// İstifadəçidən bir il daxil etməsini soruşun və ilin uzun il olub olmadığını yoxlayın.
+// Uzun il 4-ə qalıqsız bölünən ildir.
+// Daxil edilmiş il uzun ildirsə, konsola mesaj cıxarın.
+// «İl uzun il deyil» və ya «İl uzun ildir»mesajını çıxarın.
+
+// let num = prompt("il daxil edin")
+// if(num%4==0){
+//     console.log("il uzun ildir");
+// }
+// else{
+//     console.log("uzun il deyil");
+// }
+
+// Task-27
+// if...else operatoru ilə yazllmış kodu switch operatoruna dəyişdirməklə kodu yenidən yazın.
+// let id = prompt ('enter product id:');
+// if (id === '1') {
+//   alert ('Available 10 pcs.');
+// }
+// else if (id === '2') {
+//   alert ('Available 256 pcs.');
+//  }
+// else if (id === '3') {
+//   alert ('Available 53 pcs.');
+//  }
+//   else if (id === '4') {
+//   alert ('There are 3 available.');
+//  }
+// else {
+//   alert ('Out of stock');
+// } 
+// let id = prompt('enter product id:');
+// switch (id) {
+//   case '1':
+//     console.log("available 10 pcs");
+//     break;
+//     case '1':
+//       console.log("available 256 pcs");
+//       break;
+
+//       case '2':
+//     console.log("available 53 pcs");
+//     break;
+
+//     case '3':
+//     console.log("available 256 pcs");
+//     break;
+
+//     case '4':
+//       console.log("available 3 pcs");
+//       break;
+//   default:
+//     console.log("out of stock");
+//     break;
+// }
+
+
 // ......................................................
 // ............................................................................ FOR ME .............................................................................
 // index-i 6 olanı ekrana ver
@@ -176,3 +259,10 @@
 // console.log(+num[0] + +num[1] + +num[2] + +num[3]);  
 // qarşılarındakı + işaresi String'i Number'e çevirir.
 
+// let num = 57;
+// num = num + 3;
+// console.log(num);
+
+// let num = 10;
+// console.log(++num);
+// console.log(num++);
